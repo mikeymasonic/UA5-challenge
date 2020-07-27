@@ -11,7 +11,7 @@
       "enzyme-to-json/serializer"
     ],
     "moduleNameMapper": {
-      "\\.(css)$": "identity-obj-proxy",
+      "\\.(css|scss|sass)$": "identity-obj-proxy",
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
     }
   },
@@ -27,7 +27,9 @@
   "dependencies": {
     "react": "^16.13.1",
     "react-awesome-slider": "^4.1.0",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",

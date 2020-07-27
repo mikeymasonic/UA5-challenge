@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 
 const MessagesList = ({ message, attribution }) => {
   return (
-    <section>
+    <div>
       <h3>{message}</h3>
       <h4>{attribution}</h4>
-    </section>
+    </div>
   );
 };
 
