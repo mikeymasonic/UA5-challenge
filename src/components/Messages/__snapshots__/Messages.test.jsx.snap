@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Messages component renders Messages 1`] = `
+<Fragment>
+  <section>
+    <h1>
+      Messages
+    </h1>
+  </section>
+</Fragment>
+`;
