@@ -26,6 +26,9 @@ export const messages = [
       },
     ],
   },
+];
+
+export const moreMessage = [
   {
     section_title: 'More Messages!',
     quotes: [
