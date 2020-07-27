@@ -1,19 +1,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const MessagesList = (message, attribution) => {
+const MessagesList = ({ message, attribution }) => {
   return (
     <section>
-      <h1>Messages List</h1>
       <h3>{message}</h3>
-      <h3>{attribution}</h3>
+      <h4>{attribution}</h4>
     </section>
   );
 };
 
 MessagesList.propTypes = {
-  message: PropTypes.string.isRequired,
-  attribution: PropTypes.string.isRequired,
+  message: PropTypes.string,
+  attribution: PropTypes.string,
 };
 
 export default MessagesList;
