@@ -11,16 +11,6 @@
   text-align: center;
 }
 
-.BottomMessage {
-  color: blue;
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  width: 75%;
-  font-size: 2.5rem;
-  text-align: center;
-}
-
 .Attribution {
   color: black;
   display: flex;
@@ -29,4 +19,25 @@
   width: 75%;
   font-size: 2rem;
   text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .Message {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .Attribution {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    font-size: 0.8rem;
+    text-align: center;
+  }
 }

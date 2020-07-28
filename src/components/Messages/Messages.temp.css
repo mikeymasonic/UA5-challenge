@@ -38,6 +38,7 @@
   font-size: 1.25rem;
   font-weight: bold;
   position: relative;
+  top: 10rem;
   z-index: 100;
   display: flex;
   justify-content: center;
@@ -46,30 +47,23 @@
 }
 
 .Top {
+  margin-top: -7rem;
 }
 
 .Bottom {
+  margin-top: -8rem;
 }
 
 .Button {
   z-index: 3;
   color: white;
   background-color: black;
-  padding: 0.5rem;
+  height: 3rem;
+  width: 8rem;
   position: relative;
   display: block;
   justify-content: center;
   margin: auto;
+  top: -9rem;
   font-size: 1rem;
-}
-
-@media screen and (max-width: 800px) {
-  .Title {
-    font-size: 0.5rem;
-  }
-
-  .Button {
-    padding: 0.5rem;
-    font-size: 0.5rem;
-  }
 }

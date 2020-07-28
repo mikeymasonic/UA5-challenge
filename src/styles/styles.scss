@@ -252,7 +252,7 @@
   }
   &__bullets {
     position: absolute;
-    bottom: 10rem;
+    bottom: 2rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -262,8 +262,8 @@
       @extend %clear-focus;
       padding: 0;
       display: block;
-      width: 16px;
-      height: 16px;
+      width: 10px;
+      height: 10px;
       margin: 5px;
       border-radius: 50%;
       background: var(--control-bullet-color);

@@ -6,15 +6,15 @@ const MessagesList = ({ message, attribution, messageColor }) => {
   return (
     <div className={styles.MessagesList}>
       <blockquote>
-        <h3 className={styles.Message} style={{ color: `${messageColor}` }}>
+        <p className={styles.Message} style={{ color: `${messageColor}` }}>
           {message}
-        </h3>
+        </p>
         <footer>
-          <h4 className={styles.Attribution}>
+          <p className={styles.Attribution}>
             ——
             <br />
             {attribution}
-          </h4>
+          </p>
         </footer>
       </blockquote>
     </div>
@@ -24,7 +24,6 @@ const MessagesList = ({ message, attribution, messageColor }) => {
 MessagesList.propTypes = {
   message: PropTypes.string,
   attribution: PropTypes.string,
-  sectionTitle: PropTypes.string,
   messageColor: PropTypes.string,
 };
 
