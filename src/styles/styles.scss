@@ -252,7 +252,7 @@
   }
   &__bullets {
     position: absolute;
-    bottom: 2rem;
+    bottom: 4.5rem;
     width: 100%;
     display: flex;
     align-items: center;
@@ -288,6 +288,12 @@
       &:hover {
         transform: scale(1.5);
       }
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    &__bullets {
+      bottom: 2rem;
     }
   }
 

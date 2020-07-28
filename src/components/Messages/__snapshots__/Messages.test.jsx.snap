@@ -102,6 +102,7 @@ Professor, Department of World Arts and Cultures / Dance"
     </AwesomeSlider>
     <button
       className="Button"
+      onClick={[Function]}
     >
       VIEW ALL
     </button>

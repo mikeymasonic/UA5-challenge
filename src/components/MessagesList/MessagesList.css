@@ -1,5 +1,7 @@
 .MessageList {
   text-align: center;
+  border: dotted 0.1vw rgb(197, 197, 197);
+  border-radius: 6px;
 }
 
 .Message {
@@ -19,6 +21,11 @@
   width: 75%;
   font-size: 2rem;
   text-align: center;
+}
+
+.ViewAllMessages {
+  border: dotted 0.1vw rgb(197, 197, 197);
+  border-radius: 6px;
 }
 
 @media screen and (max-width: 800px) {
