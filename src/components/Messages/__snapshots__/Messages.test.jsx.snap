@@ -6,7 +6,7 @@ exports[`Messages component renders Messages 1`] = `
     className="Top"
   >
     <h1
-      className="Title"
+      className="TitleTop"
     >
       Congratulatory Messages
     </h1>
@@ -54,7 +54,7 @@ Executive and Artistic Director, UCLA’s Center for the Art of Performance"
           key="Giuseppe Mcknight
 Executive and Artistic Director, UCLA’s Center for the Art of Performance"
           message="...please live the beautiful life that you have. It will always be enough..."
-          sectionTitle="Congratulatory Messages"
+          messageColor="#00000"
         />
       </div>
       <div
@@ -68,7 +68,7 @@ Shapiro Director, Fowler Museum"
           key="Saskia Barrett
 Shapiro Director, Fowler Museum"
           message="I hope that each one of you will harness your unique abilities, the strength of your convictions, the resiliency of youth, and the fellowship of community—the one at UCLA and others—to launch your next chapter with verve."
-          sectionTitle="Congratulatory Messages"
+          messageColor="#00000"
         />
       </div>
       <div
@@ -82,7 +82,7 @@ Director, Hammer Museum "
           key="Dewey Shelton
 Director, Hammer Museum "
           message="Hello Class of 2020...I don’t need to tell you that you’re graduating at an extraordinary time...I cannot wait to see what you all make, and invent, and design, and solve...so for each and every one of you I offer my congratulations..."
-          sectionTitle="Congratulatory Messages"
+          messageColor="#00000"
         />
       </div>
       <div
@@ -96,16 +96,21 @@ Professor, Department of World Arts and Cultures / Dance"
           key="Leela Bowler
 Professor, Department of World Arts and Cultures / Dance"
           message="Creativity is not part of the solution, it IS the solution. Reimagine, reinvent, insist on dignity, and save the world.”"
-          sectionTitle="Congratulatory Messages"
+          messageColor="#00000"
         />
       </div>
     </AwesomeSlider>
+    <button
+      className="Button"
+    >
+      VIEW ALL
+    </button>
   </section>
   <section
     className="Bottom"
   >
     <h1
-      className="Title"
+      className="TitleBottom"
     >
       More Messages
     </h1>
@@ -153,7 +158,7 @@ Professor, Department of World Arts and Cultures / Dance"
           key="Jae Rigby
 Professor, Department of World Arts and Cultures / Dance"
           message="Creativity is not part of the solution, it IS the solution. Reimagine, reinvent, insist on dignity, and save the world."
-          sectionTitle="More Messages!"
+          messageColor="#0000FF"
         />
       </div>
       <div
@@ -167,7 +172,7 @@ M.F.A., Design Media Arts, ’06"
           key="Keanan Neale
 M.F.A., Design Media Arts, ’06"
           message="Class of 2020. Congratulations. The next chapter is in your hands. Stay thoughtful, act passionately, and remain curious."
-          sectionTitle="More Messages!"
+          messageColor="#0000FF"
         />
       </div>
       <div
@@ -181,7 +186,7 @@ Director, Hammer Museum "
           key="Dewey Shelton
 Director, Hammer Museum "
           message="Hello Class of 2020...I don’t need to tell you that you’re graduating at an extraordinary time...I cannot wait to see what you all make, and invent, and design, and solve...so for each and every one of you I offer my congratulations..."
-          sectionTitle="More Messages!"
+          messageColor="#0000FF"
         />
       </div>
     </AwesomeSlider>

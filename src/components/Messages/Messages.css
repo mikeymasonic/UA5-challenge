@@ -60,12 +60,6 @@
   transform: translateX(-50%);
 }
 
-.Top {
-}
-
-.Bottom {
-}
-
 .Button {
   z-index: 3;
   color: white;

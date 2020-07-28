@@ -5,16 +5,21 @@ exports[`MessagesList component renders MessagesList 1`] = `
   className="MessagesList"
 >
   <blockquote>
-    <h3
-      className="TopMessage"
+    <p
+      className="Message"
+      style={
+        Object {
+          "color": "undefined",
+        }
+      }
     />
     <footer>
-      <h4
+      <p
         className="Attribution"
       >
         ——
         <br />
-      </h4>
+      </p>
     </footer>
   </blockquote>
 </div>
