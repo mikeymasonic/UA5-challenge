@@ -4,6 +4,12 @@ exports[`MessagesList component renders MessagesList 1`] = `
 <div
   className="MessagesList"
 >
-  <h4 />
+  <blockquote>
+    <footer>
+      <h4
+        className="Attribution"
+      />
+    </footer>
+  </blockquote>
 </div>
 `;

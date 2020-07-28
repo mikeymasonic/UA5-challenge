@@ -110,7 +110,7 @@ Professor, Department of World Arts and Cultures / Dance"
       <h1
         className="Title"
       >
-        More Messages!
+        More Messages
       </h1>
       <AwesomeSlider
         animation={null}
