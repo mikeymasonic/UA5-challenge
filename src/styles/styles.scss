@@ -252,11 +252,12 @@
   }
   &__bullets {
     position: absolute;
-    bottom: -40px;
+    bottom: 5rem;
     width: 100%;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 100;
     button {
       @extend %clear-focus;
       padding: 0;
