@@ -12,7 +12,10 @@ const MessagesList = ({ message, attribution, sectionTitle }) => {
         {sectionTitle === 'Congratulatory Messages' && messageTop}
         {sectionTitle === 'More Messages!' && messageBottom}
         <footer>
-          <h4 className={styles.Attribution}>{attribution}</h4>
+          <h4 className={styles.Attribution}>
+            ----<br></br>
+            {attribution}
+          </h4>
         </footer>
       </blockquote>
     </div>

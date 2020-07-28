@@ -1,4 +1,5 @@
 .MessageList {
+  text-align: center;
 }
 
 .TopMessage {
@@ -8,6 +9,7 @@
   margin: auto;
   width: 75%;
   font-size: 2rem;
+  text-align: center;
 }
 
 .BottomMessage {
@@ -17,6 +19,7 @@
   margin: auto;
   width: 75%;
   font-size: 2rem;
+  text-align: center;
 }
 
 .Attribution {
@@ -26,4 +29,5 @@
   margin: auto;
   width: 75%;
   font-size: 1.5rem;
+  text-align: center;
 }
