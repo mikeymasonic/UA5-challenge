@@ -2,8 +2,7 @@
   text-align: center;
 }
 
-.TopMessage {
-  color: black;
+.Message {
   display: flex;
   justify-content: center;
   margin: auto;

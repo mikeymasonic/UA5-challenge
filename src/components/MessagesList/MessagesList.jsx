@@ -2,15 +2,13 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './MessagesList.css';
 
-const MessagesList = ({ message, attribution, sectionTitle }) => {
-  const messageTop = <h3 className={styles.TopMessage}>{message}</h3>;
-  const messageBottom = <h3 className={styles.BottomMessage}>{message}</h3>;
-
+const MessagesList = ({ message, attribution, messageColor }) => {
   return (
     <div className={styles.MessagesList}>
       <blockquote>
-        {sectionTitle != 'More Messages!' && messageTop}
-        {sectionTitle === 'More Messages!' && messageBottom}
+        <h3 className={styles.Message} style={{ color: `${messageColor}` }}>
+          {message}
+        </h3>
         <footer>
           <h4 className={styles.Attribution}>
             ——
@@ -27,6 +25,7 @@ MessagesList.propTypes = {
   message: PropTypes.string,
   attribution: PropTypes.string,
   sectionTitle: PropTypes.string,
+  messageColor: PropTypes.string,
 };
 
 export default MessagesList;

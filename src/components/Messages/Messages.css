@@ -53,3 +53,17 @@
 .Bottom {
   margin-top: -8rem;
 }
+
+.Button {
+  z-index: 3;
+  color: white;
+  background-color: black;
+  height: 3rem;
+  width: 8rem;
+  position: relative;
+  display: block;
+  justify-content: center;
+  margin: auto;
+  top: -9rem;
+  font-size: 1rem;
+}
