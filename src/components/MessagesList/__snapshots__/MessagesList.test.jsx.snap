@@ -8,7 +8,10 @@ exports[`MessagesList component renders MessagesList 1`] = `
     <footer>
       <h4
         className="Attribution"
-      />
+      >
+        ----
+        <br />
+      </h4>
     </footer>
   </blockquote>
 </div>
