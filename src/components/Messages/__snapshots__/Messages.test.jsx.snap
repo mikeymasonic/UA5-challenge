@@ -3,91 +3,183 @@
 exports[`Messages component renders Messages 1`] = `
 <Fragment>
   <section>
-    <h1>
-      Messages
-    </h1>
-    <AwesomeSlider
-      animation={null}
-      bullets={true}
-      buttonContentLeft={null}
-      buttonContentRight={null}
-      buttons={true}
-      className={null}
-      controlsReturnDelay={0}
-      cssModule={null}
-      customContent={null}
-      disabled={false}
-      fillParent={false}
-      infinite={true}
-      media={Array []}
-      mobileTouch={true}
-      name="awesome-slider"
-      onFirstMount={null}
-      onLoadStart={null}
-      onResetSlider={null}
-      onStartupRelease={null}
-      onTransitionEnd={null}
-      onTransitionRequest={null}
-      onTransitionStart={null}
-      organicArrows={true}
-      rootElement="awssld"
-      scssModule={null}
-      selected={0}
-      startup={true}
-      startupDelay={0}
-      startupScreen={null}
-      style={Object {}}
-      transitionDelay={0}
+    <section
+      className="Top"
     >
-      <div
-        key="Giuseppe Mcknight
-Executive and Artistic Director, UCLA’s Center for the Art of Performance"
+      <h1
+        className="Title"
       >
-        <MessagesList
-          attribution="Giuseppe Mcknight
-Executive and Artistic Director, UCLA’s Center for the Art of Performance"
+        Congratulatory Messages
+      </h1>
+      <AwesomeSlider
+        animation={null}
+        bullets={true}
+        buttonContentLeft={null}
+        buttonContentRight={null}
+        buttons={true}
+        className="Slider"
+        controlsReturnDelay={0}
+        cssModule={null}
+        customContent={null}
+        disabled={false}
+        fillParent={false}
+        infinite={true}
+        media={Array []}
+        mobileTouch={true}
+        name="awesome-slider"
+        onFirstMount={null}
+        onLoadStart={null}
+        onResetSlider={null}
+        onStartupRelease={null}
+        onTransitionEnd={null}
+        onTransitionRequest={null}
+        onTransitionStart={null}
+        organicArrows={true}
+        rootElement="awssld"
+        scssModule={null}
+        selected={0}
+        startup={true}
+        startupDelay={0}
+        startupScreen={null}
+        style={Object {}}
+        transitionDelay={0}
+      >
+        <div
           key="Giuseppe Mcknight
 Executive and Artistic Director, UCLA’s Center for the Art of Performance"
-          message="...please live the beautiful life that you have. It will always be enough..."
-        />
-      </div>
-      <div
-        key="Saskia Barrett
-Shapiro Director, Fowler Museum"
-      >
-        <MessagesList
-          attribution="Saskia Barrett
-Shapiro Director, Fowler Museum"
+        >
+          <MessagesList
+            attribution="Giuseppe Mcknight
+Executive and Artistic Director, UCLA’s Center for the Art of Performance"
+            key="Giuseppe Mcknight
+Executive and Artistic Director, UCLA’s Center for the Art of Performance"
+            message="...please live the beautiful life that you have. It will always be enough..."
+            sectionTitle="Congratulatory Messages"
+          />
+        </div>
+        <div
           key="Saskia Barrett
 Shapiro Director, Fowler Museum"
-          message="I hope that each one of you will harness your unique abilities, the strength of your convictions, the resiliency of youth, and the fellowship of community—the one at UCLA and others—to launch your next chapter with verve."
-        />
-      </div>
-      <div
-        key="Dewey Shelton
-Director, Hammer Museum "
-      >
-        <MessagesList
-          attribution="Dewey Shelton
-Director, Hammer Museum "
+        >
+          <MessagesList
+            attribution="Saskia Barrett
+Shapiro Director, Fowler Museum"
+            key="Saskia Barrett
+Shapiro Director, Fowler Museum"
+            message="I hope that each one of you will harness your unique abilities, the strength of your convictions, the resiliency of youth, and the fellowship of community—the one at UCLA and others—to launch your next chapter with verve."
+            sectionTitle="Congratulatory Messages"
+          />
+        </div>
+        <div
           key="Dewey Shelton
 Director, Hammer Museum "
-          message="Hello Class of 2020...I don’t need to tell you that you’re graduating at an extraordinary time...I cannot wait to see what you all make, and invent, and design, and solve...so for each and every one of you I offer my congratulations..."
-        />
-      </div>
-      <div
-        key="Leela Bowler
-Professor, Department of World Arts and Cultures / Dance"
-      >
-        <MessagesList
-          attribution="Leela Bowler
-Professor, Department of World Arts and Cultures / Dance"
+        >
+          <MessagesList
+            attribution="Dewey Shelton
+Director, Hammer Museum "
+            key="Dewey Shelton
+Director, Hammer Museum "
+            message="Hello Class of 2020...I don’t need to tell you that you’re graduating at an extraordinary time...I cannot wait to see what you all make, and invent, and design, and solve...so for each and every one of you I offer my congratulations..."
+            sectionTitle="Congratulatory Messages"
+          />
+        </div>
+        <div
           key="Leela Bowler
 Professor, Department of World Arts and Cultures / Dance"
-          message="Creativity is not part of the solution, it IS the solution. Reimagine, reinvent, insist on dignity, and save the world.”"
-        />
-      </div>
-    </AwesomeSlider>
+        >
+          <MessagesList
+            attribution="Leela Bowler
+Professor, Department of World Arts and Cultures / Dance"
+            key="Leela Bowler
+Professor, Department of World Arts and Cultures / Dance"
+            message="Creativity is not part of the solution, it IS the solution. Reimagine, reinvent, insist on dignity, and save the world.”"
+            sectionTitle="Congratulatory Messages"
+          />
+        </div>
+      </AwesomeSlider>
+    </section>
+    <section
+      className="Bottom"
+    >
+      <h1
+        className="Title"
+      >
+        More Messages!
+      </h1>
+      <AwesomeSlider
+        animation={null}
+        bullets={true}
+        buttonContentLeft={null}
+        buttonContentRight={null}
+        buttons={true}
+        className="Slider"
+        controlsReturnDelay={0}
+        cssModule={null}
+        customContent={null}
+        disabled={false}
+        fillParent={false}
+        infinite={true}
+        media={Array []}
+        mobileTouch={true}
+        name="awesome-slider"
+        onFirstMount={null}
+        onLoadStart={null}
+        onResetSlider={null}
+        onStartupRelease={null}
+        onTransitionEnd={null}
+        onTransitionRequest={null}
+        onTransitionStart={null}
+        organicArrows={true}
+        rootElement="awssld"
+        scssModule={null}
+        selected={0}
+        startup={true}
+        startupDelay={0}
+        startupScreen={null}
+        style={Object {}}
+        transitionDelay={0}
+      >
+        <div
+          key="Jae Rigby
+Professor, Department of World Arts and Cultures / Dance"
+        >
+          <MessagesList
+            attribution="Jae Rigby
+Professor, Department of World Arts and Cultures / Dance"
+            key="Jae Rigby
+Professor, Department of World Arts and Cultures / Dance"
+            message="Creativity is not part of the solution, it IS the solution. Reimagine, reinvent, insist on dignity, and save the world."
+            sectionTitle="More Messages!"
+          />
+        </div>
+        <div
+          key="Keanan Neale
+M.F.A., Design Media Arts, ’06"
+        >
+          <MessagesList
+            attribution="Keanan Neale
+M.F.A., Design Media Arts, ’06"
+            key="Keanan Neale
+M.F.A., Design Media Arts, ’06"
+            message="Class of 2020. Congratulations. The next chapter is in your hands. Stay thoughtful, act passionately, and remain curious."
+            sectionTitle="More Messages!"
+          />
+        </div>
+        <div
+          key="Dewey Shelton
+Director, Hammer Museum "
+        >
+          <MessagesList
+            attribution="Dewey Shelton
+Director, Hammer Museum "
+            key="Dewey Shelton
+Director, Hammer Museum "
+            message="Hello Class of 2020...I don’t need to tell you that you’re graduating at an extraordinary time...I cannot wait to see what you all make, and invent, and design, and solve...so for each and every one of you I offer my congratulations..."
+            sectionTitle="More Messages!"
+          />
+        </div>
+      </AwesomeSlider>
+    </section>
   </section>
 </Fragment>
 `;
