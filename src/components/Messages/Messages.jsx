@@ -63,7 +63,7 @@ const Messages = () => {
   return (
     <>
       <section className={styles.Top}>
-        <h1 className={styles.Title}>{titleTop}</h1>
+        <h1 className={styles.TitleTop}>{titleTop}</h1>
         <AwesomeSlider
           className={styles.Slider}
           scssModule={AwesomeSliderStyles}
@@ -74,7 +74,7 @@ const Messages = () => {
       </section>
 
       <section className={styles.Bottom}>
-        <h1 className={styles.Title}>{titleBottom}</h1>
+        <h1 className={styles.TitleBottom}>{titleBottom}</h1>
         <AwesomeSlider
           className={styles.Slider}
           scssModule={AwesomeSliderStyles}

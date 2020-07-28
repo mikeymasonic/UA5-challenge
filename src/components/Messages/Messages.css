@@ -18,7 +18,7 @@
 }
 
 .Slider {
-  --slider-height-percentage: 60%;
+  --slider-height-percentage: 50%;
   --slider-transition-duration: 700ms;
   --organic-arrow-thickness: 4px;
   --organic-arrow-border-radius: 0px;
@@ -34,15 +34,30 @@
   --content-background-color: white;
 }
 
-.Title {
+.TitleTop {
   font-size: 1.25rem;
   font-weight: bold;
-  position: relative;
+  position: absolute;
   z-index: 100;
   display: flex;
   justify-content: center;
-  margin: auto;
+  margin: 1rem auto 0;
   text-transform: uppercase;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.TitleBottom {
+  font-size: 1.25rem;
+  font-weight: bold;
+  position: absolute;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto 0;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .Top {
@@ -59,12 +74,16 @@
   position: relative;
   display: block;
   justify-content: center;
-  margin: auto;
+  margin: 0 auto 2rem;
   font-size: 1rem;
 }
 
 @media screen and (max-width: 800px) {
-  .Title {
+  .TitleTop {
+    font-size: 0.5rem;
+  }
+
+  .TitleBottom {
     font-size: 0.5rem;
   }
 
