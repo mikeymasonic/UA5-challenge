@@ -5,11 +5,14 @@ exports[`MessagesList component renders MessagesList 1`] = `
   className="MessagesList"
 >
   <blockquote>
+    <h3
+      className="TopMessage"
+    />
     <footer>
       <h4
         className="Attribution"
       >
-        ----
+        ——
         <br />
       </h4>
     </footer>

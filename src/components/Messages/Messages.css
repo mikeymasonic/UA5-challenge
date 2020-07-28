@@ -1,5 +1,24 @@
+@font-face {
+  font-family: 'Times New Roman PS Std';
+  src: url('//db.onlinewebfonts.com/t/d1cd521cd5ec28ada84c431eadc8fe0c.eot');
+  src: url('//db.onlinewebfonts.com/t/d1cd521cd5ec28ada84c431eadc8fe0c.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/d1cd521cd5ec28ada84c431eadc8fe0c.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/d1cd521cd5ec28ada84c431eadc8fe0c.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/d1cd521cd5ec28ada84c431eadc8fe0c.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/d1cd521cd5ec28ada84c431eadc8fe0c.svg#Times New Roman PS Std')
+      format('svg');
+}
+
+* {
+  font-family: 'Times New Roman PS Std';
+}
+
 .Slider {
-  --slider-height-percentage: 40%;
+  --slider-height-percentage: 60%;
   --slider-transition-duration: 700ms;
   --organic-arrow-thickness: 4px;
   --organic-arrow-border-radius: 0px;
@@ -16,12 +35,21 @@
 }
 
 .Title {
-  font-size: 1rem;
+  font-size: 1.25rem;
+  font-weight: bold;
   position: relative;
-  top: 5rem;
+  top: 10rem;
   z-index: 100;
   display: flex;
   justify-content: center;
   margin: auto;
   text-transform: uppercase;
+}
+
+.Top {
+  margin-top: -7rem;
+}
+
+.Bottom {
+  margin-top: -8rem;
 }

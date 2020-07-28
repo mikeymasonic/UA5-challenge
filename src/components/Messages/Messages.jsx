@@ -15,10 +15,7 @@ const Messages = () => {
 
   const messageNodes = messages[0].quotes.map((data) => {
     return (
-      <div
-        key={data.attribution}
-        data-src="https://pbs.twimg.com/profile_images/524717947931996160/g0kMdxBX.png"
-      >
+      <div key={data.attribution} data-src="../../public/images/ast-right.png">
         <MessagesList
           key={data.attribution}
           {...data}
@@ -30,10 +27,7 @@ const Messages = () => {
 
   const moreMessageNodes = moreMessages[0].quotes.map((data) => {
     return (
-      <div
-        key={data.attribution}
-        data-src="https://pbs.twimg.com/profile_images/524717947931996160/g0kMdxBX.png"
-      >
+      <div key={data.attribution} data-src="../../public/images/ast-left.png">
         <MessagesList
           key={data.attribution}
           {...data}
@@ -44,25 +38,23 @@ const Messages = () => {
   });
   return (
     <>
-      <section className={styles.Messages}>
-        <section className={styles.Top}>
-          <h1 className={styles.Title}>{titleTop}</h1>
-          <AwesomeSlider
-            className={styles.Slider}
-            scssModule={AwesomeSliderStyles}
-          >
-            {messageNodes}
-          </AwesomeSlider>
-        </section>
-        <section className={styles.Bottom}>
-          <h1 className={styles.Title}>{titleBottom}</h1>
-          <AwesomeSlider
-            className={styles.Slider}
-            scssModule={AwesomeSliderStyles}
-          >
-            {moreMessageNodes}
-          </AwesomeSlider>
-        </section>
+      <section className={styles.Top}>
+        <h1 className={styles.Title}>{titleTop}</h1>
+        <AwesomeSlider
+          className={styles.Slider}
+          scssModule={AwesomeSliderStyles}
+        >
+          {messageNodes}
+        </AwesomeSlider>
+      </section>
+      <section className={styles.Bottom}>
+        <h1 className={styles.Title}>{titleBottom}</h1>
+        <AwesomeSlider
+          className={styles.Slider}
+          scssModule={AwesomeSliderStyles}
+        >
+          {moreMessageNodes}
+        </AwesomeSlider>
       </section>
     </>
   );

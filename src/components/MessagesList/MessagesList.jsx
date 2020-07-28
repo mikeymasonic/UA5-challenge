@@ -9,11 +9,12 @@ const MessagesList = ({ message, attribution, sectionTitle }) => {
   return (
     <div className={styles.MessagesList}>
       <blockquote>
-        {sectionTitle === 'Congratulatory Messages' && messageTop}
+        {sectionTitle != 'More Messages!' && messageTop}
         {sectionTitle === 'More Messages!' && messageBottom}
         <footer>
           <h4 className={styles.Attribution}>
-            ----<br></br>
+            ——
+            <br />
             {attribution}
           </h4>
         </footer>
