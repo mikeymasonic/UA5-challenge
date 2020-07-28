@@ -8,9 +8,9 @@
   --control-button-width: 10%;
   --control-button-height: 25%;
   --control-button-background: transparent;
-  --control-bullet-color: grey;
+  --control-bullet-color: #999999;
   --control-bullet-active-color: black;
-  --loader-bar-color: #851515;
+  --loader-bar-color: #f1d34a;
   --loader-bar-height: 6px;
   --content-background-color: white;
 }
@@ -18,7 +18,7 @@
 .Title {
   font-size: 1rem;
   position: relative;
-  top: 5rem;
+  top: 2rem;
   z-index: 100;
   display: flex;
   justify-content: center;

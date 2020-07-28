@@ -1,8 +1,29 @@
+.MessageList {
+}
+
 .TopMessage {
-  color: black;
-  background-image: url('https://pbs.twimg.com/profile_images/524717947931996160/g0kMdxBX.png');
+  color: red;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 75%;
+  font-size: 2rem;
 }
 
 .BottomMessage {
   color: blue;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 75%;
+  font-size: 2rem;
+}
+
+.Attribution {
+  color: purple;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 75%;
+  font-size: 1.5rem;
 }

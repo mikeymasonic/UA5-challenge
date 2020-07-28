@@ -8,9 +8,13 @@ const MessagesList = ({ message, attribution, sectionTitle }) => {
 
   return (
     <div className={styles.MessagesList}>
-      {sectionTitle === 'Congratulatory Messages' && messageTop}
-      {sectionTitle === 'More Messages!' && messageBottom}
-      <h4>{attribution}</h4>
+      <blockquote>
+        {sectionTitle === 'Congratulatory Messages' && messageTop}
+        {sectionTitle === 'More Messages!' && messageBottom}
+        <footer>
+          <h4 className={styles.Attribution}>{attribution}</h4>
+        </footer>
+      </blockquote>
     </div>
   );
 };

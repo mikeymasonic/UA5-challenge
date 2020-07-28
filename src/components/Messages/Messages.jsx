@@ -7,7 +7,8 @@ import styles from './Messages.css';
 
 const Messages = () => {
   const titleTop = messages[0].section_title;
-  const titleBottom = moreMessages[0].section_title;
+  let titleBottom = moreMessages[0].section_title;
+  titleBottom = titleBottom.replace('!', '');
 
   const sectionTitleTop = messages[0].section_title;
   const sectionTitleBottom = moreMessages[0].section_title;
