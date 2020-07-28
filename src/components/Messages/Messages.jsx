@@ -14,7 +14,10 @@ const Messages = () => {
 
   const messageNodes = messages[0].quotes.map((data) => {
     return (
-      <div key={data.attribution}>
+      <div
+        key={data.attribution}
+        data-src="https://pbs.twimg.com/profile_images/524717947931996160/g0kMdxBX.png"
+      >
         <MessagesList
           key={data.attribution}
           {...data}
@@ -26,7 +29,10 @@ const Messages = () => {
 
   const moreMessageNodes = moreMessages[0].quotes.map((data) => {
     return (
-      <div key={data.attribution}>
+      <div
+        key={data.attribution}
+        data-src="https://pbs.twimg.com/profile_images/524717947931996160/g0kMdxBX.png"
+      >
         <MessagesList
           key={data.attribution}
           {...data}
@@ -37,7 +43,7 @@ const Messages = () => {
   });
   return (
     <>
-      <section>
+      <section className={styles.Messages}>
         <section className={styles.Top}>
           <h1 className={styles.Title}>{titleTop}</h1>
           <AwesomeSlider

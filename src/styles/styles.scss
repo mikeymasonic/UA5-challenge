@@ -107,10 +107,10 @@
       top: 0;
       left: 0;
     }
-    // > div {
-    //   position: relative;
-    //   z-index: 1;
-    // }
+    > div {
+      position: relative;
+      z-index: 1;
+    }
     &--enter {
       // On content enter
     }

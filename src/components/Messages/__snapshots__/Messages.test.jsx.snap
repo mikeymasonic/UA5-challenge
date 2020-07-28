@@ -2,7 +2,9 @@
 
 exports[`Messages component renders Messages 1`] = `
 <Fragment>
-  <section>
+  <section
+    className="Messages"
+  >
     <section
       className="Top"
     >
@@ -45,6 +47,7 @@ exports[`Messages component renders Messages 1`] = `
         transitionDelay={0}
       >
         <div
+          data-src="https://pbs.twimg.com/profile_images/524717947931996160/g0kMdxBX.png"
           key="Giuseppe Mcknight
 Executive and Artistic Director, UCLA’s Center for the Art of Performance"
         >
@@ -58,6 +61,7 @@ Executive and Artistic Director, UCLA’s Center for the Art of Performance"
           />
         </div>
         <div
+          data-src="https://pbs.twimg.com/profile_images/524717947931996160/g0kMdxBX.png"
           key="Saskia Barrett
 Shapiro Director, Fowler Museum"
         >
@@ -71,6 +75,7 @@ Shapiro Director, Fowler Museum"
           />
         </div>
         <div
+          data-src="https://pbs.twimg.com/profile_images/524717947931996160/g0kMdxBX.png"
           key="Dewey Shelton
 Director, Hammer Museum "
         >
@@ -84,6 +89,7 @@ Director, Hammer Museum "
           />
         </div>
         <div
+          data-src="https://pbs.twimg.com/profile_images/524717947931996160/g0kMdxBX.png"
           key="Leela Bowler
 Professor, Department of World Arts and Cultures / Dance"
         >
@@ -140,6 +146,7 @@ Professor, Department of World Arts and Cultures / Dance"
         transitionDelay={0}
       >
         <div
+          data-src="https://pbs.twimg.com/profile_images/524717947931996160/g0kMdxBX.png"
           key="Jae Rigby
 Professor, Department of World Arts and Cultures / Dance"
         >
@@ -153,6 +160,7 @@ Professor, Department of World Arts and Cultures / Dance"
           />
         </div>
         <div
+          data-src="https://pbs.twimg.com/profile_images/524717947931996160/g0kMdxBX.png"
           key="Keanan Neale
 M.F.A., Design Media Arts, ’06"
         >
@@ -166,6 +174,7 @@ M.F.A., Design Media Arts, ’06"
           />
         </div>
         <div
+          data-src="https://pbs.twimg.com/profile_images/524717947931996160/g0kMdxBX.png"
           key="Dewey Shelton
 Director, Hammer Museum "
         >
