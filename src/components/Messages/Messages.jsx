@@ -45,7 +45,7 @@ const Messages = () => {
   if (viewAll === false) {
     return (
       <>
-        <section className={styles.Top}>
+        <section>
           <h1 className={styles.TitleTop}>{titleTop}</h1>
           <AwesomeSlider
             className={styles.Slider}
@@ -58,7 +58,7 @@ const Messages = () => {
           </button>
         </section>
 
-        <section className={styles.Bottom}>
+        <section>
           <h1 className={styles.TitleBottom}>{titleBottom}</h1>
           <AwesomeSlider
             className={styles.Slider}

@@ -76,7 +76,7 @@
     justify-content: center;
     margin: auto;
     width: 100%;
-    font-size: 0.75rem;
+    font-size: 1rem;
     text-align: center;
   }
 
@@ -108,6 +108,27 @@
     margin: auto;
     width: 100%;
     font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .Message {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    font-size: 0.7rem;
+    text-align: center;
+  }
+
+  .Attribution {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    font-size: 0.3rem;
     text-align: center;
   }
 }

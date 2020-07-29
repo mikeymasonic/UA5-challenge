@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @font-face {
   font-family: 'Times New Roman PS Std';
   src: url('//db.onlinewebfonts.com/t/d1cd521cd5ec28ada84c431eadc8fe0c.eot');
@@ -20,9 +21,9 @@
 .Slider {
   --slider-height-percentage: 50%;
   --slider-transition-duration: 700ms;
-  --organic-arrow-thickness: 4px;
+  --organic-arrow-thickness: 2px;
   --organic-arrow-border-radius: 0px;
-  --organic-arrow-height: 40px;
+  --organic-arrow-height: 20px;
   --organic-arrow-color: #26456f;
   --control-button-width: 10%;
   --control-button-height: 25%;
@@ -62,27 +63,29 @@
 }
 
 .Button {
+  font-family: 'Playfair Display', serif;
   z-index: 3;
   color: white;
   background-color: black;
-  padding: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
   position: relative;
   display: block;
   justify-content: center;
-  margin: 0 auto 2rem;
-  font-size: 0.75rem;
+  margin: 1rem auto 2rem;
+  font-size: 0.5rem;
   border: none;
   outline: none;
   top: -4rem;
 }
 
 .ButtonBack {
+  font-family: 'Playfair Display', serif;
   z-index: 3;
   color: white;
   background-color: black;
-  padding: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
   position: relative;
-  font-size: 0.75rem;
+  font-size: 0.5rem;
   font-weight: lighter;
   border: none;
   outline: none;
@@ -95,6 +98,54 @@
   border: solid 0.1vw black;
   width: 60%;
   background-color: #f1d34a;
+}
+
+@media screen and (max-width: 350px) {
+  .TitleTop {
+    font-size: 0.35rem;
+  }
+
+  .TitleBottom {
+    font-size: 0.35rem;
+  }
+
+  .Button {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+    top: -0.3rem;
+  }
+
+  .ButtonBack {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+  }
+  .Slider {
+    --control-bullet-media-position: 0.5rem;
+  }
+}
+
+@media screen and (max-height: 568px) {
+  .TitleTop {
+    font-size: 0.45rem;
+  }
+
+  .TitleBottom {
+    font-size: 0.45rem;
+  }
+
+  .Button {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+    top: -1rem;
+  }
+
+  .ButtonBack {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+  }
+  .Slider {
+    --control-bullet-media-position: 1rem;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -142,7 +193,7 @@
     font-size: 0.5rem;
   }
   .Slider {
-    --control-bullet-media-position: 1rem;
+    --control-bullet-media-position: 0.75rem;
   }
 }
 
@@ -156,40 +207,16 @@
   }
 
   .Button {
-    padding: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
     font-size: 1rem;
-    top: -1rem;
+    top: -3rem;
   }
 
   .ButtonBack {
-    padding: 1rem;
+    padding: 1rem 2rem 1rem 2rem;
     font-size: 1rem;
   }
   .Slider {
     --control-bullet-media-position: 1rem;
-  }
-}
-
-@media screen and (max-height: 568px) {
-  .TitleTop {
-    font-size: 0.25rem;
-  }
-
-  .TitleBottom {
-    font-size: 0.25rem;
-  }
-
-  .Button {
-    padding: 0.5rem;
-    font-size: 0.5rem;
-    top: 0.5rem;
-  }
-
-  .ButtonBack {
-    padding: 0.5rem;
-    font-size: 0.5rem;
-  }
-  .Slider {
-    --control-bullet-media-position: -0.25rem;
   }
 }

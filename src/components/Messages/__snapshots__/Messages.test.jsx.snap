@@ -2,9 +2,7 @@
 
 exports[`Messages component renders Messages 1`] = `
 <Fragment>
-  <section
-    className="Top"
-  >
+  <section>
     <h1
       className="TitleTop"
     >
@@ -107,9 +105,7 @@ Professor, Department of World Arts and Cultures / Dance"
       VIEW ALL
     </button>
   </section>
-  <section
-    className="Bottom"
-  >
+  <section>
     <h1
       className="TitleBottom"
     >
