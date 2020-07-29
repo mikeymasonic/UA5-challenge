@@ -28,13 +28,55 @@
   border-radius: 6px;
 }
 
+@media screen and (min-width: 400px) {
+  .Message {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    font-size: 0.3rem;
+    text-align: center;
+  }
+
+  .Attribution {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    font-size: 0.5rem;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .Message {
     display: flex;
     justify-content: center;
     margin: auto;
     width: 100%;
-    font-size: 1rem;
+    font-size: 0.75rem;
+    text-align: center;
+  }
+
+  .Attribution {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    font-size: 0.6rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .Message {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    font-size: 0.75rem;
     text-align: center;
   }
 
@@ -45,6 +87,27 @@
     margin: auto;
     width: 100%;
     font-size: 0.8rem;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .Message {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .Attribution {
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    font-size: 1.5rem;
     text-align: center;
   }
 }

@@ -32,6 +32,7 @@
   --loader-bar-color: #f1d34a;
   --loader-bar-height: 6px;
   --content-background-color: white;
+  --control-bullet-media-position: 1.5rem;
 }
 
 .TitleTop {
@@ -108,11 +109,87 @@
   .Button {
     padding: 0.5rem;
     font-size: 0.5rem;
-    top: -1.5rem;
+    top: -1rem;
   }
 
   .ButtonBack {
     padding: 0.5rem;
     font-size: 0.5rem;
+  }
+
+  .Slider {
+    --control-bullet-media-position: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .TitleTop {
+    font-size: 0.5rem;
+  }
+
+  .TitleBottom {
+    font-size: 0.5rem;
+  }
+
+  .Button {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+    top: -1rem;
+  }
+
+  .ButtonBack {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+  }
+  .Slider {
+    --control-bullet-media-position: 1rem;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .TitleTop {
+    font-size: 1rem;
+  }
+
+  .TitleBottom {
+    font-size: 1rem;
+  }
+
+  .Button {
+    padding: 1rem;
+    font-size: 1rem;
+    top: -1rem;
+  }
+
+  .ButtonBack {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  .Slider {
+    --control-bullet-media-position: 1rem;
+  }
+}
+
+@media screen and (max-height: 568px) {
+  .TitleTop {
+    font-size: 0.25rem;
+  }
+
+  .TitleBottom {
+    font-size: 0.25rem;
+  }
+
+  .Button {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+    top: 0.5rem;
+  }
+
+  .ButtonBack {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+  }
+  .Slider {
+    --control-bullet-media-position: -0.25rem;
   }
 }

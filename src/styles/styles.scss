@@ -44,6 +44,7 @@
   --control-bullet-color: #{$control-bullet-color};
   --control-bullet-active-color: #{$control-bullet-active-color};
   --content-background-color: #{$content-background-color};
+  --control-bullet-media-position: #{$control-bullet-media-position};
 }
 
 .#{$root-element} {
@@ -293,7 +294,7 @@
 
   @media screen and (max-width: 800px) {
     &__bullets {
-      bottom: 2rem;
+      bottom: var(--control-bullet-media-position);
     }
   }
 

@@ -44,7 +44,7 @@ exports[`Messages component renders Messages 1`] = `
       transitionDelay={0}
     >
       <div
-        data-src="../../public/images/ast-right.png"
+        data-src="/path/image"
         key="Giuseppe Mcknight
 Executive and Artistic Director, UCLA’s Center for the Art of Performance"
       >
@@ -58,7 +58,7 @@ Executive and Artistic Director, UCLA’s Center for the Art of Performance"
         />
       </div>
       <div
-        data-src="../../public/images/ast-right.png"
+        data-src="/path/image"
         key="Saskia Barrett
 Shapiro Director, Fowler Museum"
       >
@@ -72,7 +72,7 @@ Shapiro Director, Fowler Museum"
         />
       </div>
       <div
-        data-src="../../public/images/ast-right.png"
+        data-src="/path/image"
         key="Dewey Shelton
 Director, Hammer Museum "
       >
@@ -86,7 +86,7 @@ Director, Hammer Museum "
         />
       </div>
       <div
-        data-src="../../public/images/ast-right.png"
+        data-src="/path/image"
         key="Leela Bowler
 Professor, Department of World Arts and Cultures / Dance"
       >
@@ -149,7 +149,7 @@ Professor, Department of World Arts and Cultures / Dance"
       transitionDelay={0}
     >
       <div
-        data-src="../../public/images/ast-left.png"
+        data-src="/path/image"
         key="Jae Rigby
 Professor, Department of World Arts and Cultures / Dance"
       >
@@ -163,7 +163,7 @@ Professor, Department of World Arts and Cultures / Dance"
         />
       </div>
       <div
-        data-src="../../public/images/ast-left.png"
+        data-src="/path/image"
         key="Keanan Neale
 M.F.A., Design Media Arts, ’06"
       >
@@ -177,7 +177,7 @@ M.F.A., Design Media Arts, ’06"
         />
       </div>
       <div
-        data-src="../../public/images/ast-left.png"
+        data-src="/path/image"
         key="Dewey Shelton
 Director, Hammer Museum "
       >
